@@ -1,0 +1,33 @@
+xprent.__db_cache_size=444596224
+xprent.__java_pool_size=16777216
+xprent.__large_pool_size=8388608
+xprent.__pga_aggregate_target=218103808
+xprent.__sga_target=1073741824
+xprent.__shared_io_pool_size=0
+xprent.__shared_pool_size=587202560
+xprent.__streams_pool_size=4194304
+*.compatible='11.2.0.0.0'
+*.core_dump_dest='/data/oracle/admin/xprent/cdump'
+*.control_files='/data/oracle/oradata/xprent/control01.ctl','/data/oracle/oradata/xprent/control02.ctl','/data/oracle/oradata/xprent/control03.ctl'
+*.db_block_size=8192
+*.db_domain='oraclelinux6'
+*.db_file_multiblock_read_count=16
+*.db_files=2000
+*.db_name='xprent'
+*.db_recovery_file_dest_size=2147483648
+*.db_recovery_file_dest='/data/datapump/flashback'
+*.filesystemio_options='setall'
+*.job_queue_processes=10
+*.open_cursors=2000
+*.optimizer_index_caching=20
+*.optimizer_index_cost_adj=80
+*.processes=1900
+*.remote_login_passwordfile='EXCLUSIVE'
+*.sec_case_sensitive_logon=FALSE
+*.sga_max_size=1073741824
+*.sga_target=1073741824
+*.undo_management='AUTO'
+*.undo_tablespace='UNDOTBS1'
+DB_CREATE_FILE_DEST='/data/oracle/oradata/xprent/'
+dispatchers              = "(PROTOCOL=TCP) (SERVICE=xprentXDB)"
+log_archive_dest_1       = "LOCATION=USE_DB_RECOVERY_FILE_DEST"
